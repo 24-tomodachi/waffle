@@ -1,0 +1,68 @@
+/*全体の文字の配置*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /*　height: 100vh;  ビューポートの高さいっぱいに要素を配置 */
+  }
+  /* テキスト要素のスタイル */
+  .left-aligned-text {
+    text-align: left;
+  }
+
+.h1 {
+    color: #B03D19;
+}
+
+  /*ボタン*/
+.example {
+    background-color: #EFCA83;
+    color: #B03D19;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .example span{
+    font-size: 25px;
+  }
+  .signin-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  /*テキストボックスの大きさ*/
+  .in{
+    width: 200px;
+    height: 30px;
+    }
+  
+    /*リンクのところ*/
+  .signin-confirmation{
+    text-align: right;
+    font-size: 0.5em;
+  }
+  .NEWsignin-confirmation{
+    text-align: right;
+    font-size: 0.5em;
+  }
+  .Master-confirmation{
+    text-align: right;
+    font-size: 0.5em;
+  }
+  
+  .signin-input{
+    text-align: right;
+  }
+
+  /*エラー*/
+  .error{
+    color: red;
+    text-align: center;
+    font-size: 0.5em;
+    text-shadow:
+           1px 1px 0px #fff, -1px -1px 0px #fff,
+          -1px 1px 0px #fff,  1px -1px 0px #fff,
+           1px 0px 0px #fff, -1px  0px 0px #fff,
+           0px 1px 0px #fff,  0px -1px 0px #fff;
+  }
