@@ -1,3 +1,7 @@
+.body {
+  background-color: #EFCA83;
+}
+
 /*全体の文字の配置*/
 .container {
     display: flex;
@@ -12,6 +16,7 @@
 
 .h1 {
     color: #B03D19;
+    justify-content: center;
 }
 
   /*ボタン*/
@@ -43,10 +48,6 @@
     font-size: 0.5em;
   }
   .NEWsignin-confirmation{
-    text-align: right;
-    font-size: 0.5em;
-  }
-  .Master-confirmation{
     text-align: right;
     font-size: 0.5em;
   }

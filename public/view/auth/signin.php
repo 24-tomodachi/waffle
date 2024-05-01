@@ -13,18 +13,18 @@
     <div class="container">
         <div class="left-aligned-text">
             <div class="signin-input">
-                <p>メールアドレス
+                <p>メールアドレス<br>
                     <input type="email" name="email" class="in">
                 </p>
-                <p>パスワード
+                <p>パスワード<br>
                     <input type="password" name="password" class="in">
                 </p>
             </div>
-                <div class="###">
+                <div class="signin-confirmation">
                     <a href="###">パスワードを忘れた方はこちら</a><br>
                 </div>
 
-                <div class="###">
+                <div class="NEWsignin-confirmation">
                     <a href="###">新規の方はこちら</a><br>
                 </div>
         </div>
@@ -39,7 +39,7 @@
     </div>
     <div class="signin-button">
         <!--signin-output側で次の画面に飛ばしてる！-->
-        <p><button class="example" type="submit" name="login"><span>Login</span></button></p>
+        <p><button class="example" type="submit" name="login"><span>ログイン</span></button></p>
 
     </div>
 </form>
