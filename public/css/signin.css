@@ -16,16 +16,19 @@
 
 .h1 {
     color: #B03D19;
-    justify-content: center;
+    text-align: center;
+}
+.text{
+  text-align:center;
 }
 
   /*ボタン*/
 .example {
     background-color: #EFCA83;
     color: #B03D19;
-    padding: 10px 20px;
+    padding: 5px 50px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
   .example span{
@@ -43,10 +46,6 @@
     }
   
     /*リンクのところ*/
-  .signin-confirmation{
-    text-align: right;
-    font-size: 0.5em;
-  }
   .NEWsignin-confirmation{
     text-align: right;
     font-size: 0.5em;

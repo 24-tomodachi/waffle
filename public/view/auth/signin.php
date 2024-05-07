@@ -6,24 +6,20 @@
 <link rel="stylesheet" href="../../css/signin.css">
 <title>signin.php</title>
 </head>
-
+<body>
 <h1>WAFFLE</h1>
 
 <form action="signin-output.php" method="post">
     <div class="container">
         <div class="left-aligned-text">
             <div class="signin-input">
-                <p>メールアドレス<br>
+                <p><div class="text">メールアドレス</div><br>
                     <input type="email" name="email" class="in">
                 </p>
-                <p>パスワード<br>
+                <p><div class="text">パスワード</div><br>
                     <input type="password" name="password" class="in">
                 </p>
             </div>
-                <div class="signin-confirmation">
-                    <a href="###">パスワードを忘れた方はこちら</a><br>
-                </div>
-
                 <div class="NEWsignin-confirmation">
                     <a href="###">新規の方はこちら</a><br>
                 </div>
