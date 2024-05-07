@@ -20,6 +20,7 @@
 }
 .text{
   text-align:center;
+  color: #fff;
 }
 
   /*ボタン*/
@@ -66,3 +67,11 @@
            1px 0px 0px #fff, -1px  0px 0px #fff,
            0px 1px 0px #fff,  0px -1px 0px #fff;
   }
+
+  .radius-sample4{
+    color: #B03D19;
+    border-radius:30px;
+    width:300px;
+    height:300px;
+    border:#333333 solid 2px; 
+    }

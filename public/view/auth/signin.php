@@ -13,10 +13,11 @@
     <div class="container">
         <div class="left-aligned-text">
             <div class="signin-input">
-                <p><div class="text">メールアドレス</div><br>
+                <div class="radius-sample4"></div>
+                <p><div class="text">メールアドレス<br></div>
                     <input type="email" name="email" class="in">
                 </p>
-                <p><div class="text">パスワード</div><br>
+                <p><div class="text">パスワード<br></div>
                     <input type="password" name="password" class="in">
                 </p>
             </div>
