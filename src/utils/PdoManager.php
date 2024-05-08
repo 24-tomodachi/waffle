@@ -1,6 +1,5 @@
 <?php
 const CONFIG_PATH = __DIR__ .  '/../../conf.ini';
-echo CONFIG_PATH;
 
 class PdoManager {
   private static $instance;

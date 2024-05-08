@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../src/utils/PdoManager.php';
   $pdo = PdoManager::getInstance()->getPdo();
   if ($pdo) {
     echo 'PDO connection success';
-    var_dump($pdo);
   } else {
     echo 'PDO connection failed';
   }
