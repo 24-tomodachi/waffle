@@ -11,7 +11,7 @@
     <div class="container">
         <div class="left-aligned-text">
             <h1>WAFFLE</h1>
-                <div class="radius-sample4">
+                <div class="sikaku">
                     <p>
                         <label class="text" for="email">メールアドレス</label><br>
                         <input type="email" name="email" class="in">

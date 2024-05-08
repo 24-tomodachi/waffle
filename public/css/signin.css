@@ -18,7 +18,7 @@ h1 {
     color: #B03D19;
     text-align: center;
 }
-.text{
+text{
   text-align:center;
   color: #fff;
 }
@@ -62,9 +62,9 @@ h1 {
            0px 1px 0px #fff,  0px -1px 0px #fff;
   }
 
-  .radius-sample4{
+  .sikaku{
     background-color: #B03D19;
     border-radius:30px;
     width:300px;
-    height:300px;
+    height:260px;
     }
