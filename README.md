@@ -1,4 +1,4 @@
-![image](https://github.com/24-tomodachi/waffle/assets/114195789/a44b7a3a-efb8-4aaa-9e63-c132c8d94fa3)# waffle
+# waffle
 ## 環境構築手順
 
 ### リポジトリをクローンする
@@ -28,6 +28,8 @@ Apacheを起動
 
 ![image](https://github.com/24-tomodachi/waffle/assets/114195789/baa3a418-6e70-4aba-b823-17d0df890c5f)
 
-4. http://localhost/waffle/test/utils/PdoManagerTest.php にアクセスして「Pdo connection success」が出ればOK
+4. `conf.ini.sample`をコピー、名前を`conf.ini`にリネームする
+
+5. http://localhost/waffle/test/utils/PdoManagerTest.php にアクセスして「Pdo connection success」が出ればOK
 
 ![image](https://github.com/24-tomodachi/waffle/assets/114195789/f8da476f-e818-4e27-9a54-53fc65a186ab)
