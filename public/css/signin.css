@@ -1,4 +1,4 @@
-.body {
+body {
   background-color: #EFCA83;
 }
 
@@ -14,11 +14,11 @@
     text-align: left;
   }
 
-.h1 {
+h1 {
     color: #B03D19;
     text-align: center;
 }
-.text{
+text{
   text-align:center;
   color: #fff;
 }
@@ -35,11 +35,6 @@
   .example span{
     font-size: 25px;
   }
-  .signin-button {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
-  }
   /*テキストボックスの大きさ*/
   .in{
     width: 200px;
@@ -48,18 +43,11 @@
   
     /*リンクのところ*/
   .NEWsignin-confirmation{
-    text-align: right;
-    font-size: 0.5em;
-
+    font-size: 0.9em;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
-    text-align: left;
-  }
-  
-  .signin-input{
-    text-align: right;
+    margin-left: 180px; 
   }
 
   /*エラー*/
@@ -74,9 +62,9 @@
            0px 1px 0px #fff,  0px -1px 0px #fff;
   }
 
-  .radius-sample4{
+  .sikaku{
     background-color: #B03D19;
     border-radius:30px;
     width:300px;
-    height:300px;
+    height:260px;
     }
