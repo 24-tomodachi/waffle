@@ -1,4 +1,7 @@
 <?php
+const CONFIG_PATH = __DIR__ .  '/../../conf.ini';
+echo CONFIG_PATH;
+
 class PdoManager {
   private static $instance;
   private $pdo;
@@ -8,7 +11,7 @@ class PdoManager {
     // conf.ini を参照
     $config = null;
     try {
-      $config = parse_ini_file('../conf.ini');
+      $config = parse_ini_file(CONFIG_PATH);
     } catch (Exception $e) {
       echo "conf.ini ファイルが見つかりません。";
       echo "conf.ini.sample をコピーし、conf.ini にリネームして必要な情報を入力してください。";
