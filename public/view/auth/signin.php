@@ -21,9 +21,6 @@
                     <input type="password" name="password" class="in">
                 </p>
             </div>
-                <div class="NEWsignin-confirmation">
-                    <a href="###">新規の方はこちら</a><br>
-                </div>
         </div>
     </div>
     <div class="signin-fail">
@@ -37,8 +34,10 @@
     <div class="signin-button">
         <!--signin-output側で次の画面に飛ばしてる！-->
         <p><button class="example" type="submit" name="login"><span>ログイン</span></button></p>
-
     </div>
+        <div class="NEWsignin-confirmation">
+            <a href="###">新規の方はこちら</a><br>
+        </div>
 </form>
 
 </body>
