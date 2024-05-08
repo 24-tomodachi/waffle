@@ -4,11 +4,22 @@ class PdoManager {
   private $pdo;
 
   private function __construct() {
-    // Set up your PDO connection here
-    $dsn = 'mysql:host=localhost;dbname=mydatabase';
-    $username = 'username';
-    $password = 'password';
 
+    // conf.ini を参照
+    $config = null;
+    try {
+      $config = parse_ini_file('../conf.ini');
+    } catch (Exception $e) {
+      echo "conf.ini ファイルが見つかりません。";
+      echo "conf.ini.sample をコピーし、conf.ini にリネームして必要な情報を入力してください。";
+      echo 'Error: ' . $e->getMessage();
+      exit;
+    }
+
+    // DB接続
+    $dsn = 'mysql:host=' . $config['host'] . ';port=' . $config['port'] . ';dbname=' . $config['dbname'];
+    $username = $config['username'];
+    $password = $config['password'];
     $this->pdo = new PDO($dsn, $username, $password);
   }
 
@@ -16,12 +27,9 @@ class PdoManager {
     if (!self::$instance) {
       self::$instance = new PdoManager();
     }
-
     return self::$instance;
   }
-
   public function getPdo() {
     return $this->pdo;
   }
 }
-
