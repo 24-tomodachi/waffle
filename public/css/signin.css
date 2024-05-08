@@ -1,4 +1,4 @@
-.body {
+body {
   background-color: #EFCA83;
 }
 
@@ -14,7 +14,7 @@
     text-align: left;
   }
 
-.h1 {
+h1 {
     color: #B03D19;
     text-align: center;
 }
