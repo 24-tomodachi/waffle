@@ -1,4 +1,8 @@
 # waffle
+> [!CAUTION]
+> このリポジトリはすでに更新を停止しています。<br>
+> プロジェクトは [waffle2](https://github.com/24-tomodachi/waffle2)へと移行されました。
+
 ## 環境構築手順
 
 ### リポジトリをクローンする
